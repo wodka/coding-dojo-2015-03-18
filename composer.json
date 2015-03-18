@@ -1,0 +1,20 @@
+{
+    "name": "coding-dojo-2015-03-18",
+    "type": "project",
+    "description": "Coding Dojo 2015-03-18 Unit Tests",
+    "autoload": {
+        "psr-0": { "": "src/", "SymfonyStandard": "app/" }
+    },
+    "require": {
+        "php": ">=5.3.3",
+        "phpspec/phpspec": "~2.0"
+    },
+    "config": {
+        "bin-dir": "bin"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "2.5-dev"
+        }
+    }
+}
